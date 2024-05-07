@@ -1,0 +1,9 @@
+asgiref
+Django==4.2.7
+pytz
+sqlparse
+typing_extensions
+tzdata
+gunicorn==21.2.0
+djangorestframework
+psycopg2-binary==2.9.6
