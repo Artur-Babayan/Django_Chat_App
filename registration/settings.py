@@ -4,8 +4,8 @@ from pathlib import Path
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'm%c30v(4=6q!_ouzf8xx9l7n89pl0#l16lo6+z*g4!49-63@t#'
-DEBUG = False
+SECRET_KEY = 'django-insecure-!79n+mp+d)1-=z3w5ee9f5*74mhqbene^c*89j@(1gsot5&t@o'
+DEBUG = True
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -13,7 +13,7 @@ DEBUG = False
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ['barev.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
